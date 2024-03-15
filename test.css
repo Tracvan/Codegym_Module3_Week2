@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+.box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    /*position: relative;*/
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.childBox {
+    /*position: absolute;*/
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    /*color: white;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: white;
+}
